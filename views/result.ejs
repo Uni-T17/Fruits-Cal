@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>Fruit Details</title>
+  </head>
+  <body>
+    <div class="page">
+      <div class="detail-card">
+        <h1><%= name %></h1>
+        <div class="nutrition-grid">
+          <div class="nutrition-item">
+            <div class="nutrition-value"><%= calories %></div>
+            <div class="nutrition-label">Calories</div>
+          </div>
+          <div class="nutrition-item">
+            <div class="nutrition-value"><%= carbohydrates %>g</div>
+            <div class="nutrition-label">Carbs</div>
+          </div>
+          <div class="nutrition-item">
+            <div class="nutrition-value"><%= protein %>g</div>
+            <div class="nutrition-label">Protein</div>
+          </div>
+          <div class="nutrition-item">
+            <div class="nutrition-value"><%= fat %>g</div>
+            <div class="nutrition-label">Fat</div>
+          </div>
+          <div class="nutrition-item">
+            <div class="nutrition-value"><%= sugar %>g</div>
+            <div class="nutrition-label">Sugar</div>
+          </div>
+        </div>
+      </div>
+      <div class="back-link-wrap">
+        <a class="btn btn-secondary" href="/">Back to Fruit List</a>
+      </div>
+    </div>
+  </body>
+</html>
